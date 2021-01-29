@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.navBar {
+  display: flex;
+  position: relative;
+  background-color: black;
+  color: white;
+}
+.navBar__header {
+  display: flex;
+  width: 100%;
+  margin: 5px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar__logo > p {
+  padding-left: 70px;
+  font-size: 17px;
+}

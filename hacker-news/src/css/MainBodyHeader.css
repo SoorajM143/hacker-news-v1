@@ -1,0 +1,17 @@
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.mainBody__header-div {
+  position: relative;
+  z-index: 5;
+  margin: 0px 0px 50px 70px;
+  padding: 5px;
+  background-color: #f77705;
+}
+
+.mainBody__header {
+  padding-left: 30px;
+}
